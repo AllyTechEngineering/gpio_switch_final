@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('GPIO Advanced'),
         centerTitle: true,
       ),
-      body:  Center(
+      body: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -51,7 +51,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget readSwitchElevatedButton() {
     String switchStateValue = gpioSwitch.gpio17ReadSwitch();
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        setState(() {
+          switchStateValue = gpioSwitch.gpio17ReadSwitch();
+        });
+      },
       child: Text('GPIO17 Switch Status: $switchStateValue'),
     );
   }
