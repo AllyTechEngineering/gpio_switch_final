@@ -1,16 +1,9 @@
 # gpio_switch_final
 
-A new Flutter project.
+GPIO Switch Lesson Final Code
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Download to your raspberry Pi Model 4B with 8G of Ram
+2. Extract to your project folder
+3. Run in VS Code and use the project to fix any issues you may have encountered
